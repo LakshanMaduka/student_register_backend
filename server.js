@@ -21,7 +21,7 @@ connection.once("open",()=>{
     console.log("DB Connected");
 });
 
-const sudentRouter = require("./routes/student.js");
+const sudentRouter = require("./routes/student_routes.js");
 app.use("/student",sudentRouter)
 
 //run server
